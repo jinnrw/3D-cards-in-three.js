@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3D Cards in three.js</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.js"></script>
+  <script src="./js/vendor/three/OrbitControls.js"></script>
+</head>
+
+<body>
+  <div id="content">
+    <h3 class="title">Embossed Foil</h4>
+    <div class="controls">
+      <div class="radio-group">
+        <input type="radio" name="material" value="gold" id="material-gold" onclick="updateMaterials('gold');" checked>
+        <label for="material-gold">Gold</label>
+      </div>
+      <div class="radio-group">
+        <input type="radio" name="material" value="silver" id="material-silver" onclick="updateMaterials('silver');">
+        <label for="material-silver">Silver</label>
+      </div>
+      <div class="radio-group">
+        <input type="radio" name="material" value="rosegold" id="material-rosegold" onclick="updateMaterials('rosegold');">
+        <label for="material-rosegold">Rose Gold</label>
+      </div>
+    </div>
+  </div>
+  <div id="scene-container"></div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

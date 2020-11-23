@@ -5,7 +5,7 @@ This project is to show 3D rendering cards in a web browser, using Three.js, a W
 ### Features:
 - Light sources
 - Front & back of card
-- MeshStandardMaterial layers to interacte with lights
+- MeshStandardMaterial layers to interact with lights
 - Three colours: Gold, Silver, Rose Gold
 
 Here's the [demo](https://jinnrw.github.io/3D-cards-in-three.js/).
